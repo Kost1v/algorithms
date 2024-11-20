@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: gainsboro;
+  color: teal;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  max-width: 100px;
+}
+
+a:hover {
+  color: gold;
+  background-color: brown;
+}
+
+.tasks {
+  display: flex;
+  gap: 8px;
+}
+
+.container {
+  /* display: flex;
+  flex-direction: column; */
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-box {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: gainsboro;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+button:hover {
+  color: gold;
+  background-color: brown;
+}
